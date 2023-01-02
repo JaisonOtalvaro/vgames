@@ -1,0 +1,45 @@
+body{
+	background: lightgray url(images/v.jpg) no-repeat fixed 50% 50%;
+	font-family: Arial;
+	padding: 15px;
+}
+a:hover {
+  background-color: grey;
+}
+a:active {
+  color: black;
+}
+h1{
+	height: 50px;
+	width: 100%;
+	margin: 0px;
+	text-align: center;
+	line-height: 50px;
+	color: magenta;
+	text-shadow: 7px 4px 5px violet;
+	border-bottom: 1px solid black;
+}
+ul li{
+	list-style-type: none;
+}
+img{
+	display: block;
+	width: 20%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 10px;
+}
+#lista ul li{
+	font-family: "Lucida Handwriting";
+	padding-left: 2rem;
+	background-image: url(images/pacman.png);
+	background-position: 0 0;
+	background-size: 1.2rem 1.2rem;
+	background-repeat: no-repeat;
+	list-style-type: none;
+}
+#logo img{
+	width: inherit;
+	margin-left: inherit;
+	margin-right: inherit;
+}
